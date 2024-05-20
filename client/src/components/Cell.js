@@ -1,10 +1,14 @@
 
 
+import { StyledCell } from "../StyledComponents/CellStyled"
+
+import { TETROMINOS } from "../tetrominos"
+
 const Cell = ({type}) => {
     return(
-        <div className="">
+        <StyledCell type={'L'} color={TETROMINOS[type].color}>
             Cell
-        </div>
+        </StyledCell>
     )
 }
 
