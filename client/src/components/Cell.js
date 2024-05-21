@@ -9,7 +9,7 @@ const Cell = ({type}) => {
         <StyledCell type={'L'} color={TETROMINOS[type].color}>
             Cell
         </StyledCell>
-    )
+    ) 
 }
 
 export default Cell
