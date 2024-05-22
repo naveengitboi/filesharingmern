@@ -3,9 +3,9 @@
 
 const StartButton  = ({callBack}) => {
     return(
-        <div className="">
+        <button onClick={callBack}>
             start Game
-        </div>
+        </button>
     )
 }
 
